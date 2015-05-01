@@ -1,0 +1,36 @@
+## SQLiteConnection
+This library is to simplify the connectivity status check on Android and iOS by providing a unified simple to use API to detect connectivity on both platforms. 
+
+
+## License
+This projected is licensed under the terms of the MIT license.
+See LICENSE.TXT
+
+## Meta
+
+This is an open source project that welcomes contributions/suggestions/bug reports from those who use it. If you have any ideas on how to improve the library, please [post an issue here on github](https://github.com/has-taiar). 
+
+
+# Example Time!
+
+Please consult the source code (see unit tests) for more examples.
+
+The library contains simple methods for checking network connectivity on both iOS and Android:
+
+# iOS
+    var reachability = new Reachability("http://www.bing.com");
+	var isConnected = reachability.IsHostReachable();
+
+# Android
+    var reachability = new Reachability(myActivity, "http://www.bing.com");
+	var isConnected = reachability.IsHostReachable();
+	
+
+# Reachability on all Platforms
+    // reachability on all platforms implement IReachability which offers you:
+	var isReachable = reachability.IsHostReachable ();
+	var isReachable = reachability.IsHostReachable ("www.google.com");
+	var internetConnStatus = reachability.InternetConnectionStatus ()
+	var wifiConnStatus = reachability.LocalWifiConnectionStatus();
+	
+
