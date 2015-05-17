@@ -1,7 +1,7 @@
 
 ## License
 This projected is licensed under the terms of the MIT license.
-See LICENSE.TXT
+See [LICENSE.TXT](LICENSE.TXT)
 
 # Example Time!
 
@@ -28,4 +28,4 @@ All implementation of Reachability on all platforms implement IReachability inte
 
 ## Note
 This assumes that you have set the permissions right in your AndroidManifest file (AccessNetworkStatus, AccessWifiStatus, and AccessInternet). 
-The implementation of the library for Android does not only rely on Android SDK for checking connectivity, we also make a small get request to verify connectivity over http (port 80). You can find more details here. 
+The implementation of the library for Android does not only rely on Android SDK for checking connectivity, we also make a small get request to verify connectivity over http (port 80). You can find more details [here](http://stackoverflow.com/questions/8919083/checking-host-reachability-availability-in-android). 
