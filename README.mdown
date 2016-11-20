@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/70340ug0pgumdf8s/branch/master?svg=true)](https://ci.appveyor.com/project/has-taiar/reachability-net/branch/master)  [![NuGet](https://buildstats.info/nuget/reachability.net)](https://www.nuget.org/packages/Reachability.Net/)
+
 
 ## License
 This projected is licensed under the terms of the MIT license.
