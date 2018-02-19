@@ -37,7 +37,7 @@ namespace Reachability.Net.XamarinAndroid
 				{
 					var task = Task.Factory.StartNew(() => 
 					{
-						URL url = new URL(HostName);
+						URL url = new URL(host);
 			            HttpURLConnection urlc = (HttpURLConnection) url.OpenConnection();
 			            urlc.SetRequestProperty("User-Agent", "Android Application");
 			            urlc.SetRequestProperty("Connection", "close");
